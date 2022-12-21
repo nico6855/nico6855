@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Font end web developer">
+    <title>Portfolio Website</title>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="Nicos-Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--Link to Box Icons-->
+    <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+   <!--Scroll Top-->
+   <a href="#home" class="scroll-top">
+    <i class='bx bx-up-arrow-alt'></i>
+</a>
+<header>
+<!--Nav-->
+    <div class="nav-container"> 
+    <!--Logo-->
+    <a href="#" class="logo">Nicos Portfolio</a>
+    <!--Navbar-->
+    <ul class="navbar">
+        <li><a href="#home" class="nav-link">HOME</a></li>
+        <li><a href="#portfolio" class="nav-link">PROJECTS</a></li>
+        <li><a href="#skills" class="nav-link">SKILLS</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT ME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+    </ul>
+        <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </div>    
+    </header>
+    <!--Home-->
+    <section class="home-container" id="home">
+    <div class="home-content">
+        <div> <!--Work on Logo-->
+            <img src="" class="logo">
+        </div>    
+        <div class="home-text">
+            <h1>Hello my name is <span>Nico</span></h1>
+            <p>Welcome to my official portfolio, I am a front end developer <br>this is where I have previous projects <br>webpages with <br>amazing designs and upcoming projects</p>
+            <a href="">Download CV</a>
+        </div>
+        <div class="img-box"><!--Coding Images-->
+            <img src="aaron-mclean-pf7BliMKKxM-unsplash.jpg" class="back-image">
+            <img src="" class="man-image">
+        </div>
+    </div>
+</div>
+</section>
+    
+<!--About-->
+<section class="about-container" id="about">
+        <!--Heading-->
+        <h2 class="heading">About</h2>
+        <!--About Content-->
+        <div class="about-content">
+            <div class="about-data">
+                <h2>JB Woodworking Finishes was the first published website</h2>
+            </div>
+        </div>    
+</section>
+
+    <!--Skills JS currently learning react-->
+    <section class="services-container" id="services">
+    <!--Heading-->
+    <h2 class="heading">Skills</h2>
+        <!--Skills as services Content-->
+        <div class="services-content">
+            <div class="service-box">
+            <i class='bx bxl-html5 bx-lg' ></i>
+            <h3>HTML5</h3>
+            </div>
+        </div> 
+        <div class="services-content">
+            <div class="service-box">   
+            <i class='bx bxl-css3 bx-lg' ></i>
+            <h3>CSS3</h3>
+            </div>
+        </div>
+        <div class="services-content">
+            <div class="service-box">
+            <i class='bx bxl-javascript bx-lg' ></i>
+            <h3>Javascript</h3>
+            </div>
+        </div>
+        <div class="services-content">
+            <div class="service-box">
+            <i class='bx bxl-react bx-lg'></i>
+            <h3>Learning React</h3>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio-->
+    <section class="portfolio-container" id="portfolio">
+        <!--Heading-->
+        <h2 class="heading">Projects</h2>
+        <!--Portfolio Content-->
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="Screenshot 2022-12-18 at 22-40-57 JB woodworking&finishing.png">
+                <!--Video-->
+                <iframe></iframe>
+                <div class="portfolio-overlay">
+                <h2>Chatbot integration</h2>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <!--Video-->
+                <iframe></iframe>
+                <div class="portfolio-overlay">
+                <h2>Chatbot integration</h2>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <!--Video-->
+                <iframe></iframe>
+                <div class="portfolio-overlay">
+                <h2>Chatbot integration</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projects-->
+
+    <!--Contact Me -->
+    <section class="contact container" id="contact">
+        <!--Heading-->
+        <h2 class="heading">Contact Me!</h2>
+        <!--Contact Form -->
+        <form class="contact-form" id="contact-form" name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+            <input style="display:none" name="bot-field">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="email" id="email" placeholder="Email Address" class="email" required>
+            <textarea name="" id="" placeholder="Write message here" class="message" required></textarea>
+            <input type="submit" value="send" class="send-btn">
+        </form>
+    </section>
+<!--Scroll Reveal Animation-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--Link To js-->
+<script src="Nicos-portfolio.js"></script>
+</body>
+</html>
